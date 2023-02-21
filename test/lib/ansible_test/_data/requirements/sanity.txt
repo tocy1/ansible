@@ -7,3 +7,4 @@ rstcheck ; python_version >= '3.5' # only used on python 3.5+
 virtualenv
 voluptuous ; python_version >= '3.5' # only used on python 3.5+
 yamllint ; python_version >= '3.5' # only used on python 3.5+
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
